@@ -1,9 +1,30 @@
-__pycache__/
-.ipynb_checkpoints/
-.env
+# Datasets and patient-level medical images
+data/
+datasets/
+images/
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.csv
+*.parquet
+*.h5
+*.hdf5
+# Checkpoints, credentials, generated files
 *.pt
 *.pth
 *.ckpt
-data/
-datasets/
+*.safetensors
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+.ipynb_checkpoints/
 outputs/
+results/private/
